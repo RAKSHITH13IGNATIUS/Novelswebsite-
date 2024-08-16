@@ -1,0 +1,102 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #ff6347;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.featured {
+    margin-top: 30px;
+}
+
+.featured h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #ff6347;
+}
+
+.book-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.book-item {
+    background-color: #ffebcd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.book-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.book-item h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.book-item p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #ff6347;
+}
+
+.book-item button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book-item button:hover {
+    background-color: #e5533d;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #555;
+}
+
+footer a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
